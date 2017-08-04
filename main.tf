@@ -45,7 +45,7 @@ resource "aws_instance" "web" {
     "Company"  = "theidol.com"
     "Index" = "${count.index}"
   }
-  count = "2"
+  count = "3"
 }
 
 output "public_ip" {
